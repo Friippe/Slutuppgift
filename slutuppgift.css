@@ -1,8 +1,10 @@
 /* Css till slutuppgift */
 
-body{
-margin:auto;
+#main{
+margin:0 auto;
+max-width:750px;
 }
 h1{
 	text-align:center;
+	color:red;
 }
