@@ -1,6 +1,6 @@
 /* Css till slutuppgift */
 
-#main{
+#wrapper{
 margin:0 auto;
 max-width:750px;
 }
@@ -8,3 +8,11 @@ h1{
 	text-align:center;
 	color:red;
 }
+<<<<<<< HEAD
+=======
+#navlist li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 20px;
+}
+>>>>>>> origin/master
