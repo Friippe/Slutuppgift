@@ -13,20 +13,6 @@ h1{
 	text-align:center;
 	color:red;
 }
-/*#startsida #navlist li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 50px;
-}*/
-/* #startsida #navlist li:first-of-type{
-padding-left:25%;
-} */
-footer{
-	padding-left:20px;
-}
-.bild{
-
-}
 /* <-----------------navbar------------> */
 
 nav
@@ -77,3 +63,22 @@ font-size: 1.5em;
 
 
 /* <-----------------navbar------------> */
+/*#startsida #navlist li{
+	display: inline;
+	list-style-type: none;
+	padding-right: 50px;
+}*/
+/* #startsida #navlist li:first-of-type{
+padding-left:25%;
+} */
+
+
+footer{
+	padding-left:20px;
+}
+.bild{
+margin-top:5%;
+}
+.slider {
+text-align:center;
+}
