@@ -8,11 +8,31 @@ h1{
 	text-align:center;
 	color:red;
 }
-<<<<<<< HEAD
-=======
+.hoger img {
+	max-width: 100%;
+}
+@media (min-width: 500px) {
+
+
+#main {
+	max-width: 1200px;
+	margin: 0 auto;
+	min-width: 500px;
+	
+}
+nav {
+	width: 120px;
+	float: left;
+
+}
 #navlist li{
-	display: inline;
 	list-style-type: none;
 	padding-right: 20px;
 }
->>>>>>> origin/master
+div.hoger {
+	margin-left: 130px;
+	background-color: #efefef;
+}
+
+
+}
