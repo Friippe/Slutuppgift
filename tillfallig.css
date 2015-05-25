@@ -89,3 +89,8 @@ background-color:blue;
 .stranden{
 /* width:50%; */
 }
+#slider{
+max-width:600px;
+margin: 0 auto;
+margin-top:10px;
+}
