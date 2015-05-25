@@ -9,12 +9,74 @@ max-width:75%;
 background-color:white;
 padding-bottom:20px;
 }
+#navlist li{
+	list-style-type: none;
+}
+nav{
+	border-bottom: 1px solid #ddd;
+}
 h1,h2{
 	text-align:center;
 	color:red;
 }
+h2{
+	color:#1B7AEB;
+}
+footer{
+	padding-top:10px;
+	margin:0 3% 0 3%;
+	border-top:1px solid;
+	overflow:auto;
+}
+.bild{
+margin:0 10px 0 0; 
+float:left;
+max-width:100%;
+}
+.camping{
+float:left;
+width:50%;
+}
+.camping p, .stranden p{
+	text-align:center;
+}
+.stranden{
+/* width:50%; */
+}
+#slider{
+max-width:600px;
+margin: 0 auto;
+margin-top:10px;
+}
+.text{
+	margin:3% 3% 0 3%;
+}
+*, *:after, *:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+[class*='col-'] {
+  float: left;
+  padding-right:10px;
+}
+[class*='col-']:last-of-type{
+	padding-right:0;
+}
+.col-1-2{
+	width:50%
+}
+.col-1-4{
+	width:25%
+}
+.col-1-2 p{
+	text-align:center;
+}
+.col-1-2 p img{
+	max-width:100%;
+}
 /* <-----------------navbar------------> */
-
+@media (min-width: 550px) {
 nav
 {
 font-family: Arial,Sans-Serif;
@@ -57,44 +119,5 @@ font-size: 1.5em;
 }
 
 #navlist a#current { color: #fc6; }
-
-
-
+}
 /* <-----------------navbar------------> */
-/*#startsida #navlist li{
-	display: inline;
-	list-style-type: none;
-	padding-right: 50px;
-}*/
-/* #startsida #navlist li:first-of-type{
-padding-left:25%;
-} */
-
-
-footer{
-	padding-top:10px;
-	margin-left:3%;
-}
-.bild{
-margin:0 10px 0 0; 
-float:left;
-max-width:100%
-}
-.camping{
-float:left;
-width:50%;
-}
-.camping p, .stranden p{
-	text-align:center;
-}
-.stranden{
-/* width:50%; */
-}
-#slider{
-max-width:600px;
-margin: 0 auto;
-margin-top:10px;
-}
-.text{
-	margin:3% 3% 0 3%;
-}
