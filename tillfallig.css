@@ -33,16 +33,6 @@ margin:0 10px 0 0;
 float:left;
 max-width:100%;
 }
-.camping{
-float:left;
-width:50%;
-}
-.camping p, .stranden p{
-	text-align:center;
-}
-.stranden{
-/* width:50%; */
-}
 #slider{
 max-width:600px;
 margin: 0 auto;
@@ -74,6 +64,9 @@ margin-top:10px;
 }
 .col-1-2 p img{
 	max-width:100%;
+}
+.grid{
+overflow:auto;
 }
 /* <-----------------navbar------------> */
 @media (min-width: 550px) {
